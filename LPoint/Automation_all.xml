@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Utility.ListenerClass"></listener>
+	</listeners>
+  <test thread-count="5" name="Automation_all">
+	  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="lendingPointUI.TestCases.DTC_EndToEndFlowTest"/>
+      <class name="lendingPointUI.TestCases.ApplyPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
