@@ -10,7 +10,7 @@ import Utility.Log;
 import Base.BaseClass;
 import PageObjects.ApplyPage;
 import PageObjects.SelectOfferPage;
-
+//
 public class ApplyPageTest extends BaseClass{
 	private ApplyPage applyPage;
 	public SelectOfferPage selectOfferPage;
