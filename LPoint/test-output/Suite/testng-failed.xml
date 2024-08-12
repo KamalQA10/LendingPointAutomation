@@ -14,10 +14,10 @@
     <classes>
       <class name="lendingPointUI.TestCases.DTC_EndToEndFlowTest">
         <methods>
-          <include name="loadConfig"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="loadConfig"/>
           <include name="verifyDTC_EndToEndFlow"/>
+          <include name="tearDown"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- lendingPointUI.TestCases.DTC_EndToEndFlowTest -->

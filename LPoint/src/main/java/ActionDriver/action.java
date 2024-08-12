@@ -174,6 +174,7 @@ public class action extends BaseClass {
 		boolean flag = false;
 		try {
 			ele.sendKeys(value);
+			Thread.sleep(2000);
 			flag = true;
 			return true;
 		} catch (Exception e) {

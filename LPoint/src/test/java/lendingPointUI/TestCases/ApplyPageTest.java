@@ -10,7 +10,7 @@ import Utility.Log;
 import Base.BaseClass;
 import PageObjects.ApplyPage;
 import PageObjects.SelectOfferPage;
-//
+
 public class ApplyPageTest extends BaseClass{
 	private ApplyPage applyPage;
 	public SelectOfferPage selectOfferPage;
@@ -27,7 +27,7 @@ public class ApplyPageTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(groups = {"Smoke","Sanity"}, priority = 1)
+	@Test(groups = {"Sanity"}, priority = 1)
 	public void verifyLPTitle() throws Throwable {
 			Log.startTestCase("verifyLPTitle");
 		applyPage = new ApplyPage();
@@ -36,7 +36,7 @@ public class ApplyPageTest extends BaseClass{
 			Log.endTestCase("verifyLPTitle");
 	}
 
-	@Test(groups = {"Smoke","Regression"}, priority = 2)
+	@Test(groups = {"Smoke"}, priority = 2)
 	public void verifyLoanApply() throws Throwable 
 	{
 			Log.startTestCase("verifyLoanApply");
