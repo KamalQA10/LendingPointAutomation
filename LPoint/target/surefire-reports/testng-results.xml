@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T16:14:16 IST" name="Suite" finished-at="2024-08-12T16:15:22 IST" duration-ms="66213">
+  <suite started-at="2024-08-12T21:14:54 IST" name="Suite" finished-at="2024-08-12T21:16:00 IST" duration-ms="66130">
     <groups>
       <group name="Sanity">
         <method signature="ApplyPageTest.verifyLPTitle()[pri:1, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" name="verifyLPTitle" class="lendingPointUI.TestCases.ApplyPageTest"/>
@@ -14,13 +14,13 @@
         <method signature="ApplyPageTest.verifyLoanApply()[pri:2, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" name="verifyLoanApply" class="lendingPointUI.TestCases.ApplyPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-08-12T16:14:16 IST" name="Automation_all" finished-at="2024-08-12T16:15:22 IST" duration-ms="66213">
+    <test started-at="2024-08-12T21:14:54 IST" name="Automation_all" finished-at="2024-08-12T21:16:00 IST" duration-ms="66130">
       <class name="lendingPointUI.TestCases.DTC_EndToEndFlowTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T16:14:16 IST" name="loadConfig" finished-at="2024-08-12T16:14:16 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T21:14:53 IST" name="loadConfig" finished-at="2024-08-12T21:14:54 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T16:14:16 IST" name="setup" finished-at="2024-08-12T16:14:21 IST" duration-ms="4984" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T21:14:54 IST" name="setup" finished-at="2024-08-12T21:14:59 IST" duration-ms="4900" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,23 +31,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyDTC_EndToEndFlow()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T16:14:21 IST" name="verifyDTC_EndToEndFlow" finished-at="2024-08-12T16:14:57 IST" duration-ms="35982" status="FAIL">
+        <test-method signature="verifyDTC_EndToEndFlow()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T21:14:59 IST" name="verifyDTC_EndToEndFlow" finished-at="2024-08-12T21:15:35 IST" duration-ms="36081" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7d7e45ef5922bc10f47212923612c6b7)] -> xpath: //span[text()='SELECT OFFER']] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (26a70f223cbfd7677cb869cd46067ee4)] -> xpath: //span[text()='SELECT OFFER']] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53207/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d7e45ef5922bc10f47212923612c6b7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62702/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26a70f223cbfd7677cb869cd46067ee4]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7d7e45ef5922bc10f47212923612c6b7)] -> xpath: //span[text()='SELECT OFFER']] (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (26a70f223cbfd7677cb869cd46067ee4)] -> xpath: //span[text()='SELECT OFFER']] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53207/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d7e45ef5922bc10f47212923612c6b7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62702/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26a70f223cbfd7677cb869cd46067ee4
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at ActionDriver.action.waitForElementVisibility(action.java:39)
@@ -91,17 +91,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDTC_EndToEndFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T16:14:57 IST" name="tearDown" finished-at="2024-08-12T16:14:58 IST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T21:15:35 IST" name="tearDown" finished-at="2024-08-12T21:15:35 IST" duration-ms="727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T16:15:22 IST" name="afterSuite" finished-at="2024-08-12T16:15:22 IST" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:lendingPointUI.TestCases.DTC_EndToEndFlowTest@74e52303]" started-at="2024-08-12T21:16:00 IST" name="afterSuite" finished-at="2024-08-12T21:16:00 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- lendingPointUI.TestCases.DTC_EndToEndFlowTest -->
       <class name="lendingPointUI.TestCases.ApplyPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:14:58 IST" name="setup" finished-at="2024-08-12T16:15:02 IST" duration-ms="4516" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:35 IST" name="setup" finished-at="2024-08-12T21:15:40 IST" duration-ms="4356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,15 +112,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLPTitle()[pri:1, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:15:02 IST" name="verifyLPTitle" finished-at="2024-08-12T16:15:02 IST" duration-ms="10" status="PASS">
+        <test-method signature="verifyLPTitle()[pri:1, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:40 IST" name="verifyLPTitle" finished-at="2024-08-12T21:15:40 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLPTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:15:02 IST" name="tearDown" finished-at="2024-08-12T16:15:03 IST" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:40 IST" name="tearDown" finished-at="2024-08-12T21:15:41 IST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:15:03 IST" name="setup" finished-at="2024-08-12T16:15:06 IST" duration-ms="3457" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:41 IST" name="setup" finished-at="2024-08-12T21:15:44 IST" duration-ms="3076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,11 +131,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoanApply()[pri:2, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:15:06 IST" name="verifyLoanApply" finished-at="2024-08-12T16:15:21 IST" duration-ms="15032" status="PASS">
+        <test-method signature="verifyLoanApply()[pri:2, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:44 IST" name="verifyLoanApply" finished-at="2024-08-12T21:15:59 IST" duration-ms="15416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoanApply -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T16:15:21 IST" name="tearDown" finished-at="2024-08-12T16:15:22 IST" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lendingPointUI.TestCases.ApplyPageTest@323b36e0]" started-at="2024-08-12T21:15:59 IST" name="tearDown" finished-at="2024-08-12T21:16:00 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

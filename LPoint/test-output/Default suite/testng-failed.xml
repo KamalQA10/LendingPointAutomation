@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lendingPointUI.TestCases.DTC_EndToEndFlowTest">
-        <methods>
-          <include name="loadConfig"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verifyDTC_EndToEndFlow"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- lendingPointUI.TestCases.DTC_EndToEndFlowTest -->
       <class name="lendingPointUI.TestCases.ApplyPageTest">
         <methods>
           <include name="loadConfig"/>
           <include name="tearDown"/>
           <include name="verifyLPTitle"/>
-          <include name="setup"/>
           <include name="verifyLoanApply"/>
+          <include name="setup"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- lendingPointUI.TestCases.ApplyPageTest -->
